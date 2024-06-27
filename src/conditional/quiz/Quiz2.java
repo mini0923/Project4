@@ -10,6 +10,7 @@ public class Quiz2 {
 		
 		if(age >= 8 && gender == 'F') {
 			System.out.println("여학생입니다.");
+			
 		}
 
 	}
