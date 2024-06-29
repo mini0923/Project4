@@ -5,11 +5,11 @@ public class Quiz8 {
 	public static void main(String[] args) {
 
 
-		int score = 9;
+		int score = 88;
 		
 		int value = score/10;
 		
-		switch (score) {
+		switch (value) {
 		
 			case 9 :
 				System.out.println("수");
@@ -21,6 +21,7 @@ public class Quiz8 {
 				
 			case 7 :
 				System.out.println("미");
+				break;
 				
 			default : 
 				System.out.println("양");
