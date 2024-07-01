@@ -13,10 +13,17 @@ public class Quiz11 {
 				System.out.print("*");
 			}
 			System.out.println("");
-			
 		}
- 		
- 		
+	
+	for(int a = 4; a >= 1; a--) {
+		for (int b = 1; b<=a; b++) {
+			System.out.print("*");
+		}
+		for(int c = 4; c >= a; c--) {
+			System.out.print(" ");
+		}
+		System.out.println();
+	}
  		
 //		System.out.println("    *");
 //		System.out.println("   **");
